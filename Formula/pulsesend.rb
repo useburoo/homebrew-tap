@@ -1,28 +1,28 @@
 class Pulsesend < Formula
   desc "Send transactional email with PulseSend from your terminal"
   homepage "https://docs.pulse-send.jiordiviera.me/cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.3.0/pulsesend-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d21d9118c3cae4eb90adb9c43b204264c05a5c957f0159488b8c6cde754b7471"
+      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.4.0/pulsesend-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8205bf7585d6078b0db3d1aaa98416d6312ffad3b8106be51ceef4bcc869be30"
     end
     on_intel do
-      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.3.0/pulsesend-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5980d94c169bf1ca24c9573bf1e71af20a9b68afddabe1e22cccb71ce4f47d78"
+      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.4.0/pulsesend-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8e4644643bf776e6accf0675dc9835c01d44516a528864e4fad6f3c54886d304"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.3.0/pulsesend-0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "bb8695752bbba2f724d204285b2a4c7ea622bbb9bf91aa9399b091ab0d994f32"
+      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.4.0/pulsesend-0.4.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "06a44d5acd95992d58f6c58a7eb2a22e6d0da86c9f51e400b43125e41581d614"
     end
     on_intel do
-      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.3.0/pulsesend-0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "aa39a339ab51359bd74d5fcccb522a6a772afa6b1addbf4fa79a8765d4e9a938"
+      url "https://github.com/useburoo/pulsesend-cli/releases/download/v0.4.0/pulsesend-0.4.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d2850bea035038eddeb252578311e0de0b6ec6036da0a41783da52761ba380de"
     end
   end
 
